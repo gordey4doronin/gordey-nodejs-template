@@ -26,8 +26,8 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
             email: ${{ secrets.CODESPHERE_EMAIL }}
-            password: ${{ secrets.CODESPHERE_PASSWORD }}
-            team: ${{ secrets.CODESPHERE_TEAM }}
+            password: ${{ secrets.CLOUD_CODESPHERE_PASSWORD }}
+            team: ${{ secrets.CLOUD_CODESPHERE_TEAM }}
             plan: Micro
             onDemand: true
             env: |
