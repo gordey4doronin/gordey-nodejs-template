@@ -33,5 +33,5 @@ jobs:
             env: |
               NODE_ENV=development
               DEBUG=true
-            apiUrl: https://codesphere.com/
+            apiUrl: https://cloud.codesphere.com/
             tlsAllowUnauthorized: "true"
