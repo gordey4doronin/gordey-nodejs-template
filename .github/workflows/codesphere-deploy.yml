@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to Codesphere
-        uses: docker://ghcr.io/codesphere-cloud/codesphere-monorepo/integrations/github-action:gh-action-ws-url-5dd1ca4b0e
+        uses: codesphere-cloud/gh-action-deploy@main
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
