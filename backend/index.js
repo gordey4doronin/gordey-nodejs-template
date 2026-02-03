@@ -119,5 +119,6 @@ app.get('/urls', (req, res) => {
 });
 
 app.listen(PORT, () => {
+  console.log(`Backend Env: ${process.env.NODE_ENV}`);
   console.log(`Backend server running on http://localhost:${PORT}`);
 });
