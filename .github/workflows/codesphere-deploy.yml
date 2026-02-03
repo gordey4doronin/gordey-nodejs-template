@@ -35,4 +35,4 @@ jobs:
               DEBUG=true
             apiUrl: https://cloud.codesphere.com/
             tlsAllowUnauthorized: "true"
-            profile: prod
+            profile: qa
