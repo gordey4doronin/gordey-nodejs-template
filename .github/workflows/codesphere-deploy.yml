@@ -34,5 +34,4 @@ jobs:
               NODE_ENV=development
               DEBUG=true
             apiUrl: https://cloud.codesphere.com/
-            tlsAllowUnauthorized: "true"
             profile: qa
