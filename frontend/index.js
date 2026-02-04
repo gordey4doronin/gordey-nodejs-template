@@ -27,5 +27,6 @@ app.get('/:shortId', (req, res) => {
 });
 
 app.listen(PORT, () => {
+  console.log(`Frontend Env: ${process.env.NODE_ENV}`);
   console.log(`Frontend server running on http://localhost:${PORT}`);
 });
