@@ -35,3 +35,4 @@ jobs:
               DEBUG=true
             apiUrl: https://cloud.codesphere.com/
             tlsAllowUnauthorized: "true"
+            restricted: true
