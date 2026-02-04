@@ -35,4 +35,3 @@ jobs:
               DEBUG=true
             apiUrl: https://cloud.codesphere.com/
             restricted: true
-            # profile: qa
