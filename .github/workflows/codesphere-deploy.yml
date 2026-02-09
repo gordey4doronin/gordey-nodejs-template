@@ -36,4 +36,3 @@ jobs:
             apiUrl: https://cloud.codesphere.com/
             restricted: true
             cloneDepth: 1
-            ciProfile: qa
