@@ -34,7 +34,7 @@ jobs:
               NODE_ENV=development
               DEBUG=true
               GORDEY_TEST_SECRET=${{ secrets.CODESPHERE_EMAIL }}
-              GORDEY_TEST_ENV=${{ env.GITHUB_REPOSITORY_OWNER }}
+              GORDEY_TEST_ENV=https://test.codesphere.com/
             apiUrl: https://cloud.codesphere.com/
             restricted: true
             cloneDepth: 1
