@@ -26,16 +26,14 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
             email: ${{ secrets.CODESPHERE_EMAIL }}
-            password: ${{ secrets.CLOUD_CODESPHERE_PASSWORD }}
-            team: ${{ secrets.CLOUD_CODESPHERE_TEAM }}
+            password: ${{ secrets.CODESPHERE_PASSWORD }}
+            team: ${{ secrets.CODESPHERE_TEAM }}
             plan: Micro
             onDemand: true
             env: |
               NODE_ENV=development
               DEBUG=true
-              GORDEY_TEST_SECRET=${{ secrets.CODESPHERE_EMAIL }}
-              GORDEY_TEST_ENV=https://test.codesphere.com/
-            apiUrl: https://cloud.codesphere.com/
+            apiUrl: ${{ vars.CODESPHERE_API_URL }}
             restricted: true
             deploymentLinkType: preview
             cloneDepth: 1
