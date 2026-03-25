@@ -35,5 +35,6 @@ jobs:
               DEBUG=true
             apiUrl: ${{ vars.CODESPHERE_API_URL }}
             restricted: true
+            ciProfile: qa
             deploymentLinkType: preview
             cloneDepth: 1
