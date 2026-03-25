@@ -37,4 +37,5 @@ jobs:
               GORDEY_TEST_ENV=https://test.codesphere.com/
             apiUrl: https://cloud.codesphere.com/
             restricted: true
+            deploymentLinkType: preview
             cloneDepth: 1
